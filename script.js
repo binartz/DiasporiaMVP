@@ -1,10 +1,5 @@
-/* ==========================================================================
-   HeritageVoice Web Application State & Logic Engine
-   ========================================================================== */
-
 // --- 1. SUPABASE CLIENT INITIALIZATION ---
-const SUPABASE_URL = "https://fdirykbtkqnwcjpspofe.supabase.co";
-const SUPABASE_ANON_KEY = "sb_publishable_v7RMflMmWZJvsVXV-aRTRw_2bU3fTcg";
+//removed API keys -- website won't work properly
 
 let supabaseClient = null;
 if (typeof supabase !== 'undefined' && supabase.createClient) {
@@ -13,7 +8,7 @@ if (typeof supabase !== 'undefined' && supabase.createClient) {
     console.warn("Supabase library not loaded.");
 }
 
-const HF_TOKEN ="hf_gSbxaufuEbeoNYceHOBqdYoBrLT1QTjLjU";
+
 
 // Dynamic helper: resolves any language name (e.g. "Spanish") to an ISO code via API
 async function getIsoCode(languageName) {
