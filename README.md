@@ -1,4 +1,4 @@
-# HeritageVoice
+# Diasporia draft
 
 An AI demo language learning resource for people who were born with African and Caribbean heritage and have access to their country's language on their own terms.
 
